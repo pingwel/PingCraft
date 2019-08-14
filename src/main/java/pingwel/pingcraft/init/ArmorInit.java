@@ -38,6 +38,7 @@ public class ArmorInit
         registerItem(pingcraft_leggings);
         registerItem(pingcraft_boots);
     }
+testing
 
     public static void registerItem(Item item)
     {
