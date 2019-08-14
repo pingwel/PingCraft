@@ -29,8 +29,7 @@ public class ArmorInit
         pingcraft_chestplate = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.CHEST);
         pingcraft_leggings = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.LEGS);
         pingcraft_boots = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.FEET);
-
-
+test
     }
     //register items here
     public static void register()
