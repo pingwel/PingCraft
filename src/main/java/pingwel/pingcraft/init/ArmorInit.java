@@ -25,10 +25,10 @@ public class ArmorInit
     //Add more Armors here
     public static void init()
     {
-        pingcraft_helmet = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.HEAD);
-        pingcraft_chestplate = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.CHEST);
-        pingcraft_leggings = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.LEGS);
-        pingcraft_boots = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.FEET);
+      //  pingcraft_helmet = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.HEAD);
+      //  pingcraft_chestplate = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.CHEST);
+      //  pingcraft_leggings = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.LEGS);
+      //  pingcraft_boots = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.FEET);
     }
     //register items here
     public static void register()
