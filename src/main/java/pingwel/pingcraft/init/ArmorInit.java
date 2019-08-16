@@ -5,9 +5,11 @@ import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
+
 import pingwel.pingcraft.items.armor.CustomArmor;
 import pingwel.pingcraft.reference.Reference;
 
@@ -25,10 +27,10 @@ public class ArmorInit
     //Add more Armors here
     public static void init()
     {
-      //  pingcraft_helmet = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.HEAD);
-      //  pingcraft_chestplate = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.CHEST);
-      //  pingcraft_leggings = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.LEGS);
-      //  pingcraft_boots = new CustomArmor(pingdiaplusarmor, 1, EntityEquipmentSlot.FEET);
+        pingcraft_helmet = new CustomArmor("pingcraft_helmet", pingdiaplusarmor, 1, EntityEquipmentSlot.HEAD);
+        pingcraft_chestplate = new CustomArmor("pingcraft_chestplate", pingdiaplusarmor, 1, EntityEquipmentSlot.CHEST);
+        pingcraft_leggings = new CustomArmor("pingcraft_leggings", pingdiaplusarmor, 1, EntityEquipmentSlot.LEGS);
+        pingcraft_boots = new CustomArmor("pingcraft_boots",pingdiaplusarmor, 1, EntityEquipmentSlot.FEET);
     }
     //register items here
     public static void register()
