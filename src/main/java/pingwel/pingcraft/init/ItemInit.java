@@ -14,7 +14,8 @@ public class ItemInit
                 /*Tells what items we are going to make*/
     public static Item pingcraft_ingot;
 
-    public static void init() /*Gives items a name*/
+    public static void init()
+        /*Gives items a name*/
     {
         pingcraft_ingot = new CustomIngot("pingcraft_ingot");
     }

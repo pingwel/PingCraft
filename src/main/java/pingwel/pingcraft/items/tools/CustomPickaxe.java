@@ -11,6 +11,7 @@
 package pingwel.pingcraft.items.tools;
 
 import net.minecraft.item.ItemPickaxe;
+import pingwel.pingcraft.PingCraft;
 
 public class CustomPickaxe extends ItemPickaxe
 {
@@ -20,5 +21,6 @@ public class CustomPickaxe extends ItemPickaxe
         super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
+        setCreativeTab(PingCraft.pingcrafttab);
     }
 }

@@ -11,6 +11,7 @@
 package pingwel.pingcraft.items.tools;
 
 import net.minecraft.item.ItemSpade;
+import pingwel.pingcraft.PingCraft;
 
 public class CustomShovel extends ItemSpade{
 
@@ -19,6 +20,7 @@ public class CustomShovel extends ItemSpade{
         super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
+        setCreativeTab(PingCraft.pingcrafttab);
     }
 
 }

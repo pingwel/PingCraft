@@ -12,6 +12,7 @@ package pingwel.pingcraft.items.tools;
 
 
 import net.minecraft.item.ItemSword;
+import pingwel.pingcraft.PingCraft;
 
 public class CustomSword extends ItemSword {
 
@@ -20,6 +21,7 @@ public class CustomSword extends ItemSword {
         super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
+        setCreativeTab(PingCraft.pingcrafttab);
     }
 }
 

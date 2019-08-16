@@ -12,6 +12,7 @@ package pingwel.pingcraft.items.tools;
 
 
 import net.minecraft.item.ItemHoe;
+import pingwel.pingcraft.PingCraft;
 
 public class CustomHoe extends ItemHoe
 {
@@ -21,5 +22,6 @@ public class CustomHoe extends ItemHoe
         super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
+        setCreativeTab(PingCraft.pingcrafttab);
     }
 }
