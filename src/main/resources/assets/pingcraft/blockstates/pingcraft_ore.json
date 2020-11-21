@@ -1,6 +1,6 @@
 {
   "variants": {
-    "normal": { "model": "pingcraft:blocks/pingcraft_ore" },
-    "inventory": { "model": "pingcraft:blocks/pingcraft_ore" }
+    "normal": { "model": "pingcraft/pingcraft_ore" },
+    "inventory": { "model": "pingcraft/pingcraft_ore" }
   }
 }

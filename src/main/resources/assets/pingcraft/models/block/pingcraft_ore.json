@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "blocks/pingcraft_ore"
+    "all": "block/pingcraft_ore"
   }
 }
