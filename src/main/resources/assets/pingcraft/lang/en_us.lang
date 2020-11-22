@@ -1,5 +1,19 @@
 //Items
+item.pingcraft_ingot=Ping Ingot
+item.pingcraft_hoe=Ping Hoe
+item.pingcraft_pickaxe=Ping Pickaxe
+item.pingcraft_axe=Ping Axe
+item.pingcraft_shovel=Ping Shovel
+item.pingcraft_sword=Ping Sword
 
 //Blocks
+tile.pingcraft_ore=Ping Ore
 
 //Armor
+item.pingcraft_helmet=Ping Helmet
+item.pingcraft_chestplate=Ping Chestplate
+item.pingcraft_leggings=Ping Leggings
+item.pingcraft_boots=Ping Boots
+
+//Taps
+itemGroup.pingcrafttab=PingCraft

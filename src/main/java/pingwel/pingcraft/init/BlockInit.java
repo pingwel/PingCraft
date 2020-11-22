@@ -34,9 +34,9 @@ public class BlockInit
         item.setRegistryName(block.getRegistryName());
         ForgeRegistries.ITEMS.register(item);
 
-        /* new ModelResourceLocation(item.getRegistryName(), "inventory"); */
+        new ModelResourceLocation(item.getRegistryName(), "inventory");
 
-        /* ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory")); */
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
     }
 
 }

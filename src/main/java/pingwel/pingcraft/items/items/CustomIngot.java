@@ -1,4 +1,4 @@
-package pingwel.pingcraft.items;
+package pingwel.pingcraft.items.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

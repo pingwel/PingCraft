@@ -1,10 +1,8 @@
 package pingwel.pingcraft.handler;
 
 
-import pingwel.pingcraft.init.ArmorInit;
 import pingwel.pingcraft.init.BlockInit;
 import pingwel.pingcraft.init.ItemInit;
-import pingwel.pingcraft.init.ToolInit;
 import pingwel.pingcraft.recipe.RecipeRegistry;
 
 public class RegistryHandler
@@ -13,8 +11,7 @@ public class RegistryHandler
     {
         RecipeRegistry.registerCrafting();
         RecipeRegistry.registerSmelting();
-        ToolInit.register();
-        ArmorInit.register();
+
     }
 
     public static void Common()
@@ -25,7 +22,5 @@ public class RegistryHandler
         BlockInit.init();
         BlockInit.register();
 
-        ToolInit.init();
-        ArmorInit.init();
     }
 }
