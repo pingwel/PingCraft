@@ -1,5 +1,6 @@
 {
-  "variants": {
-    "normal": { "models": "pingcraft/pingcraft_ore.json" }
+  "variants":
+  {
+    "normal": { "model": "pingcraft/pingcraft_ore" }
   }
 }

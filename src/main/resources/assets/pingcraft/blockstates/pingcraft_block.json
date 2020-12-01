@@ -1,6 +1,5 @@
 {
-  "variants":
-  {
-    "normal": { "model": "pingcraft/pingcraft_block.json" }
+  "variants": {
+    "normal": { "model": "pingcraft/pingcraft_block" }
   }
 }
